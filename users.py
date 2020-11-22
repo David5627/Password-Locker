@@ -2,7 +2,7 @@ class users:
     """
     class that show user accounts
     """
-    user_list = [] # Empty contact list
+    user_list = []
 
     def __init__(self,user_name,user_password):
 
