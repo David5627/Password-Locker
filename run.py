@@ -15,8 +15,11 @@ def __main__():
 
             print("create password")
             created_users_password = input()
+            print("you account has been successfully created")
 
-            print("login with you user name")
+
+            print("login")
+            print("Enter username")
             entered_username = input()
 
             print("please enter you password")
@@ -29,6 +32,7 @@ def __main__():
                 print('\n')
 
                 print("please enter correct credentials")
+                print("username")
                 
                 entered_username = input()
                 print('\n')
@@ -36,7 +40,8 @@ def __main__():
                 entered_password = input()
 
             else:
-                print(f"Hello {entered_username} you have logged succesfully")
+                print(f"Hello {entered_username} you have logged in succesfully")
+            
         elif my_code == 'login':
             print("Enter your username")
             print('\n')
