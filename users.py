@@ -17,9 +17,6 @@ class users:
 
         users.user_list.append(self)
 
-        #credentials
-class credentials: 
-    """
-    class that displays users credentials
-    """       
+       
+    
 
