@@ -28,19 +28,20 @@ def __main__():
 
 
             while entered_username != created_users_name or  entered_password != created_users_password:
-                print("invalid Username or password")
                 print('\n')
+                print("invalid Username or password")
 
-                print("please enter correct credentials")
-                print("username")
+                # print("please enter correct credentials")
+                print("Enter correct username")
                 
                 entered_username = input()
                 print('\n')
-
+                print("Enter correct password")
                 entered_password = input()
+              
 
             else:
-                print(f"Hello {entered_username} you have logged in succesfully")
+                print(f"Hello {entered_username} you have login to your new account succesfully")
             
         elif my_code == 'login':
             print("Enter your username")
@@ -54,7 +55,7 @@ def __main__():
             default_password = input()
 
             while default_user != "David" and default_password != "1234":
-                print("Please Enter correct password")
+                print("invalid password or username")
                 print("Enter your username")
 
 
