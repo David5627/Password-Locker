@@ -31,7 +31,6 @@ def __main__():
                 print('\n')
                 print("invalid Username or password")
 
-                # print("please enter correct credentials")
                 print("Enter correct username")
                 
                 entered_username = input()
